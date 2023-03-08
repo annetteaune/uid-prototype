@@ -1,0 +1,55 @@
+footer {
+	background-color: $footercolor;
+	display: flex;
+	padding: 2rem 5rem;
+	justify-content: space-between;
+	margin-top: 2rem;
+	flex-wrap: wrap;
+	.footer-header {
+		font-size: 1rem;
+		padding: 1rem;
+	}
+	.contact {
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
+		font-size: 0.7rem;
+		span {
+			padding-bottom: 0.3rem;
+		}
+		.underlined {
+			text-decoration: underline;
+		}
+	}
+	.socials {
+		display: flex;
+		flex-direction: column;
+		text-align: end;
+		padding: 1rem;
+
+		div {
+			display: flex;
+			font-size: 2rem;
+			gap: 1rem;
+			justify-content: end;
+			.fa-square-facebook {
+				color: rgb(55, 82, 218);
+			}
+			.fa-square-twitter {
+				color: rgb(49, 148, 173);
+			}
+			.fa-square-instagram {
+				color: rgb(26, 80, 82);
+			}
+			.fa-linkedin {
+				color: rgb(24, 78, 184);
+			}
+			.fa-square-youtube {
+				color: red;
+			}
+		}
+	}
+	.footerimg {
+		max-width: 400px;
+	}
+}

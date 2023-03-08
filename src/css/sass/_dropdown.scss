@@ -1,0 +1,34 @@
+.dropdown {
+	background-color: $background;
+	padding: 1rem;
+	border-top: 1px solid $buttons;
+	ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		li {
+			list-style: none;
+			font-size: 0.8rem;
+		}
+	}
+}
+
+.dropdowncontainer {
+	position: absolute;
+	width: 100%;
+}
+
+.subdropdown {
+	background-color: $background;
+	padding: 1rem;
+	border-bottom: 1px solid $buttons;
+	ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		li {
+			list-style: none;
+			font-size: 0.8rem;
+		}
+	}
+}
