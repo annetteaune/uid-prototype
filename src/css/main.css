@@ -1,28 +1,5 @@
-.navbar ul {
-  display: flex;
-  justify-content: space-evenly;
-  text-decoration: none;
-  color: black;
-}
-.navbar ul li {
-  list-style: none;
-  font-size: 0.8rem;
-  padding: 0.5rem 1rem;
-}
-.navbar ul li:hover {
-  text-decoration: underline;
-}
-.navbar ul .nav-link {
-  background-color: #006d77;
-  color: white;
-}
-
 .breadcrumb {
   font-size: 0.6rem;
-}
-
-.activetab {
-  background-color: red;
 }
 
 .front-page-slides img {
