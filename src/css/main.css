@@ -214,7 +214,7 @@ button span {
 }
 
 footer {
-  background-color: #aecac7;
+  background-color: white;
   display: flex;
   padding: 2rem 5rem;
   justify-content: space-between;
@@ -224,6 +224,7 @@ footer {
 footer .footer-header {
   font-size: 1rem;
   padding: 1rem;
+  font-weight: bold;
 }
 footer .contact {
   display: flex;
@@ -234,17 +235,23 @@ footer .contact {
 footer .contact span {
   padding-bottom: 0.3rem;
 }
-footer .contact .underlined {
-  text-decoration: underline;
-}
 footer .contact button {
   margin-top: 2rem;
   background-color: white;
   color: black;
   font-size: 0.8rem;
   text-decoration: underline;
+  border: none;
 }
 footer .contact button:hover {
+  background-color: #006d77;
+  color: white;
+}
+footer .fullinfo {
+  color: black;
+  text-decoration: underline;
+}
+footer .fullinfo:hover {
   background-color: #006d77;
   color: white;
 }
@@ -390,6 +397,48 @@ header form button {
   font-size: 0.8rem;
 }
 
+h2 {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.contact-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.contact-wrapper article {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7rem;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+section iframe {
+  width: 800px;
+  height: 500px;
+}
+
+.enheter {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+.enheter .enheterimg {
+  width: 850px;
+}
+
 body {
   background-color: #edf6f9;
   font-family: Arial, Helvetica, sans-serif;
@@ -397,6 +446,10 @@ body {
 
 html {
   font-size: calc(1em + 1vw);
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */

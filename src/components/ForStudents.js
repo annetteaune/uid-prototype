@@ -1,6 +1,7 @@
 import Login from "./Login";
 
 export default function ForStudents() {
+	
 	return (
 		<>
 			<section className="students-menu">
