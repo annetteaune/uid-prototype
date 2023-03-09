@@ -419,11 +419,11 @@ h2 {
   font-size: 0.7rem;
 }
 
-section {
+.map {
   display: flex;
   justify-content: center;
 }
-section iframe {
+.map iframe {
   width: 800px;
   height: 500px;
 }

@@ -24,7 +24,7 @@ export default function ContactPage() {
 					<span>1757 Halden</span>
 				</article>
 			</div>
-			<section>
+			<section className="map">
 				<iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=B%20R%20A%20veien%204,%20halden+(My%20Business%20Name)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
 					<a href="https://www.maps.ie/distance-area-calculator.html">
 						measure acres/hectares on map
