@@ -23,18 +23,40 @@
 	display: flex;
 	justify-content: space-evenly;
 	align-items: baseline;
-	.shortcuts {
+
+	.shortcuts,
+	.profile {
+		max-width: 550px;
+		width: 100%;
+		max-height: 600px;
+		margin: 0 auto;
+		margin-top: 1rem;
+		background-color: white;
 		display: flex;
 		flex-direction: column;
-		ul {
-			li {
-				list-style: none;
-				padding-bottom: 0.4rem;
+		padding-bottom: 1.2rem;
+	
+		.login-btn {
+			height: 60px;
+			width: 250px;
+			font-size: 0.7rem;
+			border: none;
+			background-color: $background;
+			color: $headercolor;
+			margin: 0 auto;
+			border: 1px solid $buttons;
+			&:hover{
+				text-decoration: underline;
 			}
+	
+			
 		}
-	}
-	.profile {
-		padding: 1rem;
+		h4 {
+			padding-top: 1.2rem;
+			padding-bottom: 0.5rem;
+			color: $headercolor;
+			margin: 0 auto;
+		}
 		ul {
 			display: flex;
 			flex-direction: column;
@@ -52,13 +74,10 @@
 			font-size: 0.8rem;
 		}
 	}
+}
 
-	.login {
-		height: 50px;
-		width: 250px;
-		font-size: 0.7rem;
-		border: none;
-		background-color: white;
-		color: $buttons;
-	}
+.fa-chevron-right{
+	font-size: 0.6rem;
+	margin-left: 0.1rem;
+	color: $buttons;
 }

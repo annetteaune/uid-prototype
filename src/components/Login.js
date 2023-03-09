@@ -12,9 +12,9 @@ export default function Login() {
 	const [display, setDisplay] = useState("none");
 	return (
 		<>
-			<section>
+			
 				<h4>Dine studier</h4>
-				<button className="login" onClick={handleLogin}>
+				<button className="login-btn" onClick={handleLogin}>
 					{login}
 				</button>
 
@@ -27,7 +27,7 @@ export default function Login() {
 					<li>Dine studieveiledere</li>
 					<li>Dine foreninger</li>
 				</ul>
-			</section>
+		
 		</>
 	);
 }

@@ -20,6 +20,17 @@ footer {
 		.underlined {
 			text-decoration: underline;
 		}
+		button{
+			margin-top: 2rem;
+			background-color: white;
+			color: black;
+			font-size: 0.8rem;
+			text-decoration: underline; 
+			&:hover{
+				background-color: $buttons;
+				color: white;
+			}
+		}
 	}
 	.socials {
 		display: flex;
