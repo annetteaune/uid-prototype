@@ -48,6 +48,7 @@ button span {
 .menu-items a:hover,
 .menu-items button:hover {
   background-color: white;
+  text-decoration: underline;
 }
 
 .arrow::after {

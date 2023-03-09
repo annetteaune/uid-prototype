@@ -57,6 +57,7 @@ button span { //ir mellomrom mellom tekst og pil i knapper
 .menu-items a:hover,
 .menu-items button:hover { //hover på knapper
   background-color: white;
+  text-decoration: underline;
 }
 
 .arrow::after { //pil ved siden av knappetekst
