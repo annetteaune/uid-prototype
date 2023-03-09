@@ -1,11 +1,16 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
 	return (
 		<footer>
 			<div className="contact">
 				<span className="footer-header">Kontakt:</span>
-				<span>Telefon: 69 60 80 00</span>
-				<span>E-post: postmottak@hiof.no</span>
-				<span className="underlined">Fullstendig kontaktinformasjon</span>
+				<span className="bold">Telefon:</span> <span>69 60 80 00</span>
+				<span className="bold">E-post: </span>
+				<span> postmottak@hiof.no</span>
+				<Link to="/kontakt-oss" className="fullinfo">
+					Fullstendig kontaktinformasjon
+				</Link>
 				<button>Tilgjengelighetserklæring</button>
 			</div>
 			<div className="socials">

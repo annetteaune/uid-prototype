@@ -15,7 +15,7 @@
 			width: 50%;
 			//box-shadow: 5px 5px 10px #37353552;
 			background-color: white;
-			color: $buttons;
+			
 			border: none;
 			font-size: 0.7rem;
 			&:hover {
@@ -92,12 +92,17 @@
 			flex-direction: column;
 			display: flex;
 			font-size: 0.6rem;
+			h4 {
+				font-size: 0.8rem;
+				margin: 0.1rem;
+			}
 		}
 		button {
 			background-color: $buttons;
 			color: white;
 			border: none;
-			padding: 1rem;
+			padding: 0.5rem;
+			font-size: 0.6rem;
 		}
 	}
 }

@@ -1,11 +1,9 @@
 import Login from "./Login";
 
 export default function ForStudents() {
+	
 	return (
 		<>
-			<span className="breadcrumb">
-				Hjem <i className="fa-solid fa-chevron-right"> </i> For studenter
-			</span>
 			<section className="students-menu">
 				<button>
 					Tjenester <i className="fa-solid fa-chevron-down"></i>
@@ -20,7 +18,9 @@ export default function ForStudents() {
 					Utveksling <i className="fa-solid fa-chevron-down"></i>
 				</button>
 			</section>
-
+			<span className="breadcrumb">
+				Hjem <i className="fa-solid fa-chevron-right"> </i> For studenter
+			</span>
 			<div className="links-student-container">
 				<section className="shortcuts">
 					<h4>Snarveier</h4>

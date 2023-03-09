@@ -3,8 +3,8 @@
 @import "main-page";
 @import "footer";
 @import "students";
-@import "dropdown";
 @import "header";
+@import "contact";
 
 body {
 	background-color: $background;
@@ -15,5 +15,7 @@ html {
 	font-size: calc(1em + 1vw);
 } 
 
-
+.bold {
+	font-weight: bold;
+}
 
