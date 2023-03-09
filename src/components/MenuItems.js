@@ -2,6 +2,11 @@ import { useState, useEffect, useRef } from "react";
 import Dropdown from "./Dropdown";
 
 import { Link } from "react-router-dom";
+/* 
+Hele menysystemet er laget ved å følge en tutorial
+Tutorial: https://blog.logrocket.com/how-create-multilevel-dropdown-menu-react/
+Kilde for all kode for menysystem: https://github.com/Ibaslogic/react-multilevel-dropdown-menu
+*/
 
 const MenuItems = ({ items, depthLevel }) => {
 	const [dropdown, setDropdown] = useState(false);
@@ -95,3 +100,5 @@ const MenuItems = ({ items, depthLevel }) => {
 };
 
 export default MenuItems;
+
+

@@ -1,3 +1,3 @@
 export default function Ansatte() {
-	return <span>Tekst</span>;
+	return <span>lage side noe tilsvarende for studenter, men med passende linker etc</span>;
 }

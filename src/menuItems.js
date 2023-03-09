@@ -1,4 +1,5 @@
 export const menuItems = [
+	/* For å endre ladingssider ved routing, bare putt inn pathen fra routing i 'url' så fikser det seg automatisk */
 	{
 		title: "Forsiden",
 		url: "/",
@@ -153,7 +154,7 @@ export const menuItems = [
 	},
 	{
 		title: "Om HIOF",
-		url: "om-hiof",
+		url: "",
 		submenu: [
 			{
 				title: "Kontakt oss",
