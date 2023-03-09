@@ -5,7 +5,7 @@ export const menuItems = [
 	},
 	{
 		title: "Studier",
-		url: "studier",
+		url: "",
 		submenu: [
 			{
 				title: "Studieretninger",
@@ -13,31 +13,31 @@ export const menuItems = [
 				submenu: [
 					{
 						title: "Økonomi, administrasjon og ledelse ",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Helse og velferd ",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Ingeniør",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Samfunnsfag og språk ",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Informasjonsteknologi ",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Lærerutdanning og pedagogiske fag",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Scenekunst",
-						url: "",
+						url: "dummypage",
 					},
 				],
 			},
@@ -47,19 +47,19 @@ export const menuItems = [
 				submenu: [
 					{
 						title: "Våre campus",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Studentboliger",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Studentsamskipnaden",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Arrangementer",
-						url: "",
+						url: "dummypage",
 					},
 				],
 			},
@@ -69,11 +69,11 @@ export const menuItems = [
 				submenu: [
 					{
 						title: "Samordnet søknad",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Studentweb",
-						url: "",
+						url: "dummypage",
 					},
 				],
 			},
@@ -83,19 +83,19 @@ export const menuItems = [
 				submenu: [
 					{
 						title: "Utveksling - kort fortalt",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Søk utveksling",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Studentrapporter og blogger",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Oversikt over utvekslingsavtaler",
-						url: "",
+						url: "dummypage",
 					},
 				],
 			},
@@ -105,11 +105,11 @@ export const menuItems = [
 				submenu: [
 					{
 						title: "Muligheter",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Masterstudier",
-						url: "",
+						url: "dummypage",
 					},
 				],
 			},
@@ -119,11 +119,11 @@ export const menuItems = [
 				submenu: [
 					{
 						title: "Dette har du rett på",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Hvordan vi kan hjelpe deg",
-						url: "",
+						url: "dummypage",
 					},
 				],
 			},
@@ -131,7 +131,7 @@ export const menuItems = [
 	},
 	{
 		title: "Forskning",
-		url: "forskning",
+		url: "",
 		submenu: [
 			{
 				title: "Alt om forskning ved HiOF",
@@ -165,15 +165,15 @@ export const menuItems = [
 				submenu: [
 					{
 						title: "Fakulteter",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Ledelsen",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Ansatte",
-						url: "",
+						url: "dummypage",
 					},
 				],
 			},
@@ -183,15 +183,15 @@ export const menuItems = [
 				submenu: [
 					{
 						title: "Forskningssamarbeid",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Utdanningssamarbeid",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Skolesamarbeid",
-						url: "",
+						url: "dummypage",
 					},
 				],
 			},
@@ -201,19 +201,19 @@ export const menuItems = [
 				submenu: [
 					{
 						title: "Utvikling i Halden",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Utvikling i Fredrikstad",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Strategi",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Vår visjon",
-						url: "",
+						url: "dummypage",
 					},
 				],
 			},
@@ -223,11 +223,11 @@ export const menuItems = [
 				submenu: [
 					{
 						title: "Nasjonalt regelverk",
-						url: "",
+						url: "dummypage",
 					},
 					{
 						title: "Retningslinjer",
-						url: "",
+						url: "dummypage",
 					},
 				],
 			},
