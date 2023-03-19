@@ -12,13 +12,25 @@
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-evenly;
-  background: white;
+  background: linear-gradient(to right, white 0%, white 65%, #006d77 65%, #006d77 100%);
   margin-bottom: 0;
 }
 
 .menu-items {
   position: relative;
   font-size: 0.7rem;
+}
+.menu-items:nth-child(5) {
+  color: white;
+}
+.menu-items:nth-child(5):hover {
+  color: black;
+}
+.menu-items:nth-child(6) {
+  color: white;
+}
+.menu-items:nth-child(6):hover {
+  color: black;
 }
 
 .menu-items a {
@@ -43,7 +55,8 @@ button span {
   margin-left: 3px;
 }
 
-.menu-items > a, .menu-items button {
+.menu-items > a,
+.menu-items button {
   text-align: left;
   padding: 0.7rem 1rem;
 }
