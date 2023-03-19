@@ -5,7 +5,7 @@ export const subMenuItems = [
 		submenu: [
 			{
 				title: "Grupperom",
-				url: "dummypage",
+				url: "book-grupperom",
 			},
 			{
 				title: "Studieveiledning",

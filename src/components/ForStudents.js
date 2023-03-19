@@ -23,9 +23,11 @@ export default function ForStudents() {
 				<section className="shortcuts">
 					<h4>Snarveier</h4>
 					<ul>
-						<li>
-							Book grupperom <i className="fa-solid fa-chevron-right"></i>
-						</li>
+						<Link to="/for-studenter/book-grupperom">
+							<li>
+								Book grupperom <i className="fa-solid fa-chevron-right"></i>
+							</li>
+						</Link>
 						<li>
 							Biblioteket <i className="fa-solid fa-chevron-right"></i>
 						</li>

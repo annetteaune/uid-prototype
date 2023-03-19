@@ -10,6 +10,7 @@ import ContactPage from "./components/ContactPage";
 import Studier from "./components/Studier";
 import Forskning from "./components/Forskning";
 import OmHiof from "./components/OmHiof";
+import Grupperom from "./components/Grupperom";
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 				<Route path="/studier" element={<Studier />} />
 				<Route path="/forskning" element={<Forskning />} />
 				<Route path="/om-hiof" element={<OmHiof />} />
+				<Route path="/for-studenter/book-grupperom" element={<Grupperom />} />
 			</Route>
 		</Routes>
 	);
