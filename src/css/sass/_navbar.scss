@@ -28,18 +28,6 @@
 	//menyknapper
 	position: relative;
 	font-size: 0.7rem;
-  	&:nth-child(5) {
-		color: white;
-    &:hover{
-      color: black;
-    }
-	}
-   	&:nth-child(6) {
-		color: white;
-     &:hover{
-      color: black;
-    }
-	}
 }
 
 .menu-items a {

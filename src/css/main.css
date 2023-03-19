@@ -20,18 +20,6 @@
   position: relative;
   font-size: 0.7rem;
 }
-.menu-items:nth-child(5) {
-  color: white;
-}
-.menu-items:nth-child(5):hover {
-  color: black;
-}
-.menu-items:nth-child(6) {
-  color: white;
-}
-.menu-items:nth-child(6):hover {
-  color: black;
-}
 
 .menu-items a {
   display: block;
