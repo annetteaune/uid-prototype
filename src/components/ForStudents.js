@@ -1,23 +1,21 @@
+import { useState } from "react";
 import Login from "./Login";
+import SubMenuStudents from "./SubMenuStudents";
+import { subMenuItems } from "../subMenuItems";
+import { Link } from "react-router-dom";
+import MenuItems from "./MenuItems";
 
 export default function ForStudents() {
-	
 	return (
 		<>
 			<section className="students-menu">
-				<button>
-					Tjenester <i className="fa-solid fa-chevron-down"></i>
-				</button>
-				<button>
-					Studentliv <i className="fa-solid fa-chevron-down"></i>
-				</button>
-				<button>
-					Eksamen <i className="fa-solid fa-chevron-down"></i>
-				</button>
-				<button>
-					Utveksling <i className="fa-solid fa-chevron-down"></i>
-				</button>
+				<ul className="students-list">
+					{subMenuItems.map((menu, index) => {
+						return <MenuItems items={menu} key={index} />;
+					})}
+				</ul>
 			</section>
+
 			<span className="breadcrumb">
 				Hjem <i className="fa-solid fa-chevron-right"> </i> For studenter
 			</span>
