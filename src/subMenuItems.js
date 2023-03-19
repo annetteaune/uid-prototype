@@ -43,7 +43,7 @@ export const subMenuItems = [
 			},
 			{
 				title: "Arrangementer (SIØ)",
-				url: "dummypage",
+				url: "https://www.siost.hiof.no/sosialt/aktivitetskalender",
 			},
 		],
 	},

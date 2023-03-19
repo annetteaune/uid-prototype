@@ -58,8 +58,12 @@ export const menuItems = [
 						url: "dummypage",
 					},
 					{
-						title: "Arrangementer",
+						title: "Akademiske arrangementer",
 						url: "dummypage",
+					},
+					{
+						title: "Arrangementer (SIØ)",
+						url: "https://www.siost.hiof.no/sosialt/aktivitetskalender",
 					},
 				],
 			},
