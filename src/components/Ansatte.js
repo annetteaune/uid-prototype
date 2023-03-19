@@ -4,18 +4,20 @@ export default function Ansatte() {
 	return (
 		<>
 			<section className="students-menu">
-				<button>
-					Tjenester <i className="fa-solid fa-chevron-down"></i>
-				</button>
-				<button>
-					Timeplaner <i className="fa-solid fa-chevron-down"></i>
-				</button>
-				<button>
-					Bibliotek <i className="fa-solid fa-chevron-down"></i>
-				</button>
-				<button>
-					Organisering <i className="fa-solid fa-chevron-down"></i>
-				</button>
+				<ul className="students-list">
+					<button>
+						Tjenester <i className="fa-solid fa-chevron-down"></i>
+					</button>
+					<button>
+						Timeplaner <i className="fa-solid fa-chevron-down"></i>
+					</button>
+					<button>
+						Bibliotek <i className="fa-solid fa-chevron-down"></i>
+					</button>
+					<button>
+						Organisering <i className="fa-solid fa-chevron-down"></i>
+					</button>
+				</ul>
 			</section>
 			<span className="breadcrumb">
 				Hjem <i className="fa-solid fa-chevron-right"> </i> For ansatte
