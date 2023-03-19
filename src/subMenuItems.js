@@ -16,6 +16,10 @@ export const subMenuItems = [
 				url: "dummypage",
 			},
 			{
+				title: "Bibliotek",
+				url: "dummypage",
+			},
+			{
 				title: "IT-support",
 				url: "dummypage",
 			},
