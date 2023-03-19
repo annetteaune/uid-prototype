@@ -5,7 +5,7 @@ export const menuItems = [
 	},
 	{
 		title: "Studier",
-		url: "",
+		url: "/studier",
 		submenu: [
 			{
 				title: "Studieretninger",
@@ -131,7 +131,7 @@ export const menuItems = [
 	},
 	{
 		title: "Forskning",
-		url: "",
+		url: "forskning",
 		submenu: [
 			{
 				title: "Alt om forskning ved HiOF",
@@ -153,7 +153,7 @@ export const menuItems = [
 	},
 	{
 		title: "Om HIOF",
-		url: "",
+		url: "om-hiof",
 		submenu: [
 			{
 				title: "Kontakt oss",

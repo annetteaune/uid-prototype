@@ -5,6 +5,7 @@
 @import "students";
 @import "header";
 @import "contact";
+@import "landingpages";
 
 body {
 	background-color: $background;
@@ -14,6 +15,10 @@ body {
 html {
 	font-size: calc(1em + 1vw);
 } 
+
+main{
+	margin: 0 5rem;
+}
 
 .bold {
 	font-weight: bold;

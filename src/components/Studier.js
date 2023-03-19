@@ -1,5 +1,4 @@
-export default function Main() {
-	/*Image src: https://unsplash.com/photos/Q_Sei-TqSlc */
+export default function Studier() {
 	return (
 		<>
 			<section className="front-page-slides">
@@ -14,36 +13,27 @@ export default function Main() {
 					</button>
 				</div>
 			</section>
-			<section className="faculty">
-				<h3>Fakulteter ved Høgskolen i Østfold</h3>
-				<article>
-					<p>
-						<i className="fa-solid fa-briefcase-medical"></i>
-						Fakultet for helse, velferd og organisasjon
-					</p>
-					<p>
-						<i className="fa-solid fa-globe"></i>
-						Fakultet for lærerutdanninger og språk
-					</p>
-					<p>
-						<i className="fa-solid fa-laptop-code"></i>
-						Fakultet for informasjons- teknologi, ingeniørfag og økonomi
-					</p>
-					<p>
-						<i className="fa-solid fa-masks-theater"></i>
-						Akademi for scenekunst
-					</p>
-				</article>
+			<section className="studieretninger">
+				<h2>Studieretninger</h2>
+				<ul>
+					<li>Helse og velferd</li>
+					<li>Ingeniør</li>
+					<li>Samfunnsfag og språk</li>
+					<li>Økonomi, administrasjon og ledelse</li>
+					<li>Informasjonsteknologi</li>
+					<li>Lærerutdanning og pedagogiske fag </li>
+					<li>Scenekunst</li>
+				</ul>
 			</section>
-			<article className="calendar">
-				<h3>Kommende arrangementer</h3>
-				<a href="https://www.siost.hiof.no/sosialt/aktivitetskalender">
-					Se alle hos SIØ <i className="fa-solid fa-up-right-from-square"></i>
-				</a>
-				<img src="kalender.png" alt="eksempel på kalender" />
-			</article>
+			<section className="studieretninger">
+				<h2>Våre campus</h2>
+				<ul>
+					<li>Campus Halden</li>
+					<li>Campus Fredrikstad</li>
+				</ul>
+			</section>
 			<section className="aktuelt">
-				<h3>Aktuelt</h3>
+				<h3>Studienytt</h3>
 				<article>
 					<img
 						src="https://www.webfx.com/wp-content/uploads/2021/10/generic-image-placeholder.png"

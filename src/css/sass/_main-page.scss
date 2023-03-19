@@ -1,4 +1,5 @@
 .front-page-slides {
+	margin: 0 -5rem;
 	img {
 		display: block;
 		width: 100%;
@@ -15,7 +16,7 @@
 			width: 50%;
 			//box-shadow: 5px 5px 10px #37353552;
 			background-color: white;
-			
+
 			border: none;
 			font-size: 0.7rem;
 			&:hover {
@@ -82,7 +83,7 @@
 	}
 	article {
 		display: flex;
-		max-width: 500px;
+		max-width: 450px;
 		width: 100%;
 		background-color: white;
 		padding: 1rem;
