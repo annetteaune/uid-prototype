@@ -85,3 +85,77 @@
 	margin-left: 0.1rem;
 	color: $buttons;
 }
+
+.oversikt {
+	width: 100%;
+	background-color: white;
+	padding: 0.6rem;
+	margin-top: 0.5rem;
+
+	div {
+		display: flex;
+		padding: 0.5rem;
+		.timeplan {
+			width: 48%;
+			margin-right: 2%;
+			h4 {
+				font-size: 0.85rem;
+				margin: 0.2rem auto ;
+			}
+			.emne-oversikt {
+				display: flex;
+				flex-direction: column;
+
+				span {
+					font-size: 0.6rem;
+				}
+				.emne {
+					font-weight: bold;
+				}
+			}
+		}
+		.innleveringer {
+			margin-left: 2%;
+			width: 48%;
+			h4 {
+				font-size: 0.85rem;
+				margin: 0.2rem auto;
+			}
+			.emne-oversikt {
+				display: flex;
+				flex-direction: column;
+
+				span {
+					font-size: 0.6rem;
+				}
+				.emne {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+
+.color1 {
+	background-color: $footercolor;
+}
+.color2 {
+	background-color: $background;
+}
+
+.more-btn {
+	background-color: $buttons;
+	color: white;
+	font-size: 0.6rem;
+	border: none;
+	padding: 0.3rem;
+	width: 20%;
+	margin: 0.2rem 40%;
+}
+
+.delivered {
+	color: green;
+}
+.not-delivered {
+	color: red;
+}

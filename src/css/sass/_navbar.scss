@@ -27,14 +27,14 @@
 .menu-items {
 	//menyknapper
 	position: relative;
-	font-size: 0.7rem;
+	font-size: 0.65rem;
 }
 
 .menu-items a {
 	//menyknapper - tekst
 	display: block;
 	//denne endrer fontstr også i siste nivå
-	font-size: 0.7rem;
+	font-size: 0.65rem;
 	color: inherit;
 	text-decoration: none;
 }
@@ -60,7 +60,7 @@ button span {
 .menu-items button {
 	//strukturen i dropdown-menyene
 	text-align: left;
-	padding: 0.7rem 1rem;
+	padding: 0.5rem 0.7rem;
 }
 
 .menu-items a:hover,

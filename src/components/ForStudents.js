@@ -4,8 +4,10 @@ import SubMenuStudents from "./SubMenuStudents";
 import { subMenuItems } from "../subMenuItems";
 import { Link } from "react-router-dom";
 import MenuItems from "./MenuItems";
+import StudentOversikt from "./StudentOversikt";
 
 export default function ForStudents() {
+	const [display, setDisplay] = useState("none");
 	return (
 		<>
 			<section className="students-menu">
@@ -41,9 +43,10 @@ export default function ForStudents() {
 					</ul>
 				</section>
 				<section className="profile">
-					<Login />
+					<Login setDisplay={setDisplay} display={display} />
 				</section>
 			</div>
+			<StudentOversikt display={display} />
 		</>
 	);
 }
