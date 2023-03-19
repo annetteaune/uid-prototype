@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import StudentOversikt from "./StudentOversikt";
 
-export default function Login({display, setDisplay}) {
+export default function Login({ display, setDisplay }) {
 	const [login, setLogin] = useState("Logg inn (Feide)");
 	const handleLogin = () => {
 		if (display == "none") {
@@ -10,7 +11,6 @@ export default function Login({display, setDisplay}) {
 		setLogin("Hei, Student!");
 	};
 
-	
 	return (
 		<>
 			<h4>Dine studier</h4>
@@ -19,7 +19,9 @@ export default function Login({display, setDisplay}) {
 			</button>
 
 			<ul style={{ display: display }}>
-				<li>Timeplan</li>
+				<Link to="/timeplan">
+					<li>Timeplan</li>
+				</Link>
 				<li>Canvas</li>
 				<li>Studentweb</li>
 				<li>Inspera</li>
@@ -27,8 +29,6 @@ export default function Login({display, setDisplay}) {
 				<li>Dine studieveiledere</li>
 				<li>Dine foreninger</li>
 			</ul>
-
-			
 		</>
 	);
 }

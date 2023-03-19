@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function StudentOversikt({display}) {
 	return (
 		<>
@@ -32,7 +34,8 @@ export default function StudentOversikt({display}) {
 								<span>Sted: Aud 2</span>
 								<span>Forelesere: A.C. Karlsen, T.M. Akerbæk</span>
 							</div>
-							<button className="more-btn">Vis mer</button>
+                            <Link to="/timeplan">
+							<button className="more-btn">Vis mer</button></Link>
 						</section>
 						<section className="innleveringer">
 							<h4>Aktive innleveringer:</h4>

@@ -11,6 +11,7 @@ import Studier from "./components/Studier";
 import Forskning from "./components/Forskning";
 import OmHiof from "./components/OmHiof";
 import Grupperom from "./components/Grupperom";
+import Timeplan from "./components/Timeplan";
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 				<Route path="/forskning" element={<Forskning />} />
 				<Route path="/om-hiof" element={<OmHiof />} />
 				<Route path="/for-studenter/book-grupperom" element={<Grupperom />} />
+				<Route path="/timeplan" element={<Timeplan />} />
 			</Route>
 		</Routes>
 	);
