@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Main() {
 	/*Image src: https://unsplash.com/photos/Q_Sei-TqSlc */
 	return (
@@ -40,10 +42,18 @@ export default function Main() {
 			</section>
 			<article className="calendar">
 				<h3>Kommende arrangementer</h3>
+
+				<img src="kalender.png" alt="eksempel på kalender" />
 				<a href="https://www.siost.hiof.no/sosialt/aktivitetskalender">
 					Se alle hos SIØ <i className="fa-solid fa-up-right-from-square"></i>
 				</a>
-				<img src="kalender.png" alt="eksempel på kalender" />
+			</article>
+			<article className="akademiske-arrangementer">
+				<h3>Akademiske arrangemententer</h3>
+				<img src="akademiske.png" alt="akademiske arrangementer" />
+				<Link to="dummypage">
+					Se alle arrangementer <i className="fa-solid fa-chevron-right"></i>
+				</Link>
 			</article>
 			<section className="aktuelt">
 				<h3>Aktuelt</h3>
