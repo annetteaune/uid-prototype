@@ -101,6 +101,12 @@ button span {
   display: block;
   width: 100%;
 }
+.front-page-slides .fotograf-forside {
+  font-size: 0.4rem;
+  background: rgba(255, 255, 255, 0.65);
+  margin-top: -0.45rem;
+  position: absolute;
+}
 .front-page-slides div {
   display: flex;
   width: 100%;
@@ -165,7 +171,8 @@ button span {
 }
 .aktuelt img {
   max-width: 250px;
-  height: 250px;
+  height: fit-content;
+  width: fit-content;
 }
 .aktuelt h3 {
   display: block;
@@ -564,6 +571,18 @@ h2 {
 
 .timeplanimg {
   max-width: 100%;
+}
+
+.omhiof-img {
+  width: 500px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+}
+.img-container span {
+  font-size: 0.4rem;
 }
 
 body {

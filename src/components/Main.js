@@ -4,6 +4,9 @@ export default function Main() {
 		<>
 			<section className="front-page-slides">
 				<img src="https://www.hiof.no/om/bilder/bildestripe.jpg" alt="hiof" />
+				<span className="fotograf-forside">
+					Foto: Bård Halvorsen, Høgskolen i Østfold
+				</span>
 				<div>
 					<button className="study-btn">
 						Finn studiet som passer deg!{" "}
@@ -27,7 +30,7 @@ export default function Main() {
 					</p>
 					<p>
 						<i className="fa-solid fa-laptop-code"></i>
-						Fakultet for informasjons- teknologi, ingeniørfag og økonomi
+						Fakultet for informasjons-teknologi, ingeniørfag og økonomi
 					</p>
 					<p>
 						<i className="fa-solid fa-masks-theater"></i>

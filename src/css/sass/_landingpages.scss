@@ -36,3 +36,15 @@
 .timeplanimg{
     max-width: 100%;
 }
+
+.omhiof-img{
+    width: 500px;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    span{
+        font-size: 0.4rem;
+    }
+}

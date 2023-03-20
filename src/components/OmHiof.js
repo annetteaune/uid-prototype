@@ -4,10 +4,12 @@ export default function OmHiof() {
 			<section className="omhiof">
 				<h3>Dette er Høgskolen i Østfold</h3>
 				<article>
-					<img
-						className="omhiof-img"
-						src="https://www.hiof.no/bibliotek/bilder/2014-04-09-biblioteket-halden-heidi-bodal-smarttavle-660-495.jpg"
-					/>
+					<div className="img-container">
+						<img
+							className="omhiof-img"
+							src="https://live.staticflickr.com/3802/9621604406_46cabea543_c.jpg"
+						/>
+					</div>
 					<section>
 						<h4>Velkommen til HIOF!</h4>
 						<p>
@@ -23,12 +25,12 @@ export default function OmHiof() {
 			<section className="studieretninger">
 				<ul>
 					<li>Kontaktinformasjon</li>
-                    <li>Organisasjon</li>
-                    <li>Samarbeid</li>
-                    <li>Utvikling, visjon og strategi</li>
-                    <li>Regelverk</li>
-                    <li>Tall og fakta</li>
-                    <li>For presse</li>
+					<li>Organisasjon</li>
+					<li>Samarbeid</li>
+					<li>Utvikling, visjon og strategi</li>
+					<li>Regelverk</li>
+					<li>Tall og fakta</li>
+					<li>For presse</li>
 				</ul>
 			</section>
 		</>

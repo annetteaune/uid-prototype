@@ -4,7 +4,12 @@
 		display: block;
 		width: 100%;
 	}
-
+	.fotograf-forside {
+		font-size: 0.4rem;
+		background: rgba(255, 255, 255, 0.65);
+		margin-top: -0.45rem;
+		position: absolute;
+	}
 	div {
 		display: flex;
 
@@ -73,7 +78,8 @@
 	justify-content: space-evenly;
 	img {
 		max-width: 250px;
-		height: 250px;
+		height: fit-content;
+		width: fit-content;
 	}
 	h3 {
 		display: block;
