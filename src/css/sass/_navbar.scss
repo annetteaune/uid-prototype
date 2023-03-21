@@ -17,8 +17,8 @@
 		to right,
 		white 0%,
 		white 65%,
-		$navbtn 65%,
-		$navbtn 100%
+		$footercolor 65%,
+		$footercolor 100%
 	);
 	margin-bottom: 0;
 
@@ -34,7 +34,7 @@
 	//menyknapper - tekst
 	display: block;
 	//denne endrer fontstr også i siste nivå
-	font-size: 0.65rem;
+	font-size: 0.7rem;
 	color: inherit;
 	text-decoration: none;
 }

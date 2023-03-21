@@ -1,6 +1,7 @@
 .students-menu {
 	display: flex;
-	background-color: $footercolor;
+	background-image: url(https://images.unsplash.com/photo-1515125520141-3e3b67bc0a88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80);
+	background-position-y: -16rem;
 	justify-content: center;
 	height: 200px;
 	align-items: center;
@@ -69,7 +70,7 @@
 				color: black;
 				text-decoration: underline;
 				font-size: 0.8rem;
-				padding-bottom: 0.4rem;
+				padding-bottom: 0.6rem;
 			}
 		}
 		span {
