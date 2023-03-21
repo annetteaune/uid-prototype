@@ -188,7 +188,7 @@ button span {
   max-width: 450px;
   width: 100%;
   background-color: white;
-  padding: 0 1rem;
+  padding: 0 1rem 0 0;
   gap: 1rem;
 }
 .aktuelt article div {
@@ -198,13 +198,13 @@ button span {
 }
 .aktuelt article div h4 {
   font-size: 0.8rem;
-  margin: 0.1rem;
+  margin: 0.1rem 0;
 }
 .aktuelt article button {
   background-color: #006d77;
   color: white;
   border: none;
-  padding: 0.5rem;
+  padding: 0.2rem;
   font-size: 0.6rem;
 }
 
@@ -402,13 +402,22 @@ footer .footerimg {
   display: flex;
   flex-direction: column;
 }
+.links-student-container .shortcuts ul a,
+.links-student-container .profile ul a {
+  text-decoration: none;
+}
 .links-student-container .shortcuts ul li,
 .links-student-container .profile ul li {
   list-style: none;
   color: black;
-  text-decoration: underline;
   font-size: 0.8rem;
   padding-bottom: 0.6rem;
+  margin-right: 2rem;
+}
+.links-student-container .shortcuts ul li:hover,
+.links-student-container .profile ul li:hover {
+  background-color: #edf6f9;
+  text-decoration: underline;
 }
 .links-student-container .shortcuts span,
 .links-student-container .profile span {

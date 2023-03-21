@@ -65,12 +65,21 @@
 		ul {
 			display: flex;
 			flex-direction: column;
+			a{
+					text-decoration: none;
+				}
 			li {
 				list-style: none;
 				color: black;
-				text-decoration: underline;
+				
 				font-size: 0.8rem;
 				padding-bottom: 0.6rem;
+				margin-right: 2rem;
+				&:hover{
+					background-color: $background;
+					text-decoration: underline;
+				}
+				
 			}
 		}
 		span {
