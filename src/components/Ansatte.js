@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Login from "./Login";
 
 export default function Ansatte() {
@@ -5,18 +6,26 @@ export default function Ansatte() {
 		<>
 			<section className="students-menu">
 				<ul className="students-list">
-					<button>
-						Tjenester <i className="fa-solid fa-chevron-down"></i>
-					</button>
-					<button>
-						Timeplaner <i className="fa-solid fa-chevron-down"></i>
-					</button>
-					<button>
-						Bibliotek <i className="fa-solid fa-chevron-down"></i>
-					</button>
-					<button>
-						Organisering <i className="fa-solid fa-chevron-down"></i>
-					</button>
+					<Link to="/dummypage">
+						<li>
+							Tjenester <i className="fa-solid fa-chevron-right"></i>
+						</li>
+					</Link>
+					<Link to="/dummypage">
+						<li>
+							Timeplaner <i className="fa-solid fa-chevron-right"></i>
+						</li>
+					</Link>
+					<Link to="/dummypage">
+						<li>
+							Bibliotek <i className="fa-solid fa-chevron-right"></i>
+						</li>
+					</Link>
+					<Link to="/dummypage">
+						<li>
+							Organisering <i className="fa-solid fa-chevron-right"></i>
+						</li>
+					</Link>
 				</ul>
 			</section>
 			<span className="breadcrumb">

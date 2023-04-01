@@ -13,14 +13,8 @@
 	flex-wrap: wrap;
 	list-style: none;
 	justify-content: space-evenly;
-	background: linear-gradient(
-		to right,
-		white 0%,
-		white 65%,
-		$footercolor 65%,
-		$footercolor 100%
-	);
 	margin-bottom: 0;
+	padding: 0 8rem;
 
 }
 

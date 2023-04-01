@@ -20,7 +20,7 @@ export default function Login({ display, setDisplay }) {
 
 			<ul style={{ display: display }}>
 				<Link to="/timeplan">
-					<li>Timeplan</li>
+					<li>Personlig timeplan</li>
 				</Link>
 				<li>Canvas</li>
 				<li>Studentweb</li>

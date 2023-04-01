@@ -82,6 +82,25 @@ export const menuItems = [
 				],
 			},
 			{
+				title: "Timeplaner",
+				url: "",
+				submenu: [
+					{
+						title: "Timeplaner for helse, velferd og organisasjon",
+						url: "https://tp.educloud.no/hiof/timeplan/student.php?fak=224450000&inst=224450000",
+					},
+					{
+						title:
+							"Timeplaner for informasjonsteknologi, ingeniørfag og økonomi",
+						url: "https://tp.educloud.no/hiof/timeplan/student.php?fak=224650000&inst=224650000",
+					},
+					{
+						title: "Timeplaner for lærerutdanninger og språk",
+						url: "https://tp.educloud.no/hiof/timeplan/student.php?fak=224350000&inst=224350000",
+					},
+				],
+			},
+			{
 				title: "Utveksling",
 				url: "",
 				submenu: [
@@ -237,12 +256,103 @@ export const menuItems = [
 			},
 		],
 	},
-	{
-		title: "For Ansatte",
-		url: "/for-ansatte",
-	},
+
 	{
 		title: "For Studenter",
 		url: "/for-studenter",
+		submenu: [
+			{
+				title: "Din side",
+				url: "/for-studenter",
+			},
+			{
+				title: "Tjenester",
+				url: "",
+				submenu: [
+					{
+						title: "Grupperom",
+						url: "book-grupperom",
+					},
+					{
+						title: "Studieveiledning",
+						url: "dummypage",
+					},
+					{
+						title: "Helse/rådgiver",
+						url: "dummypage",
+					},
+					{
+						title: "Bibliotek",
+						url: "dummypage",
+					},
+					{
+						title: "IT-support",
+						url: "dummypage",
+					},
+				],
+			},
+			{
+				title: "Studentliv",
+				url: "",
+				submenu: [
+					{
+						title: "Kart",
+						url: "dummypage",
+					},
+					{
+						title: "Campus",
+						url: "dummypage",
+					},
+					{
+						title: "Studentdemokrati",
+						url: "dummypage",
+					},
+					{
+						title: "Arrangementer (SIØ)",
+						url: "https://www.siost.hiof.no/sosialt/aktivitetskalender",
+					},
+				],
+			},
+			{
+				title: "Foreninger",
+				url: "",
+				submenu: [
+					{
+						title: "Alle foreninger",
+						url: "dummypage",
+					},
+					{
+						title: "Dine foreninger",
+						url: "dummypage",
+					},
+					{
+						title: "Start din egen forening",
+						url: "dummypage",
+					},
+				],
+			},
+		],
+	},
+	{
+		title: "For Ansatte",
+		url: "/for-ansatte",
+		submenu: [
+			{
+				title: "Tjenester",
+				url: "",
+			},
+			{
+				title: "Organisering",
+				url: "",
+			},
+			{
+				title: "Noe",
+				url: "",
+			},
+			{
+				title: "Noe",
+				url: "",
+			},
+		],
 	},
 ];
